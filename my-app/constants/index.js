@@ -1,3 +1,4 @@
+
 export const NFT_CONTRACT_ABI = [
   {
     inputs: [
@@ -229,7 +230,9 @@ export const NFT_CONTRACT_ABI = [
         type: "uint256",
       },
     ],
-    stateMutability: "view",
+
+
+stateMutability: "view",
     type: "function",
   },
   {
@@ -466,7 +469,9 @@ export const NFT_CONTRACT_ABI = [
   },
   {
     inputs: [],
-    name: "tokenIds",
+
+
+name: "tokenIds",
     outputs: [
       {
         internalType: "uint256",
@@ -582,7 +587,7 @@ export const NFT_CONTRACT_ABI = [
   },
 ];
 export const NFT_CONTRACT_ADDRESS =
-  "0x6805a66179283Fa1FcEc8D89f4e162bebe5C0617";
+  "0xf0C38CB585095d91C999F7A810C1B4767eF1a02A";
 
 export const TOKEN_CONTRACT_ABI = [
   {
@@ -814,7 +819,9 @@ export const TOKEN_CONTRACT_ABI = [
         type: "uint256",
       },
     ],
-    stateMutability: "view",
+
+
+stateMutability: "view",
     type: "function",
   },
   {
@@ -1007,4 +1014,4 @@ export const TOKEN_CONTRACT_ABI = [
 ];
 
 export const TOKEN_CONTRACT_ADDRESS =
-  "0x4E5696E26D085D13Cd8C6d1cf8c6bEE70D4c48df";
+  "0xB5d4F782C09df9Ca2b8124B55D09641326d8b040";
